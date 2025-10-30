@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.main-content {
+  flex-grow: 1; 
+  padding: 20px;
+  max-width: 1200px; 
+  margin: 0 auto;
+  width: 100%;
+}
+
+.app-header {
+  background-color: #171e2e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.app-header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.app-header nav ul li {
+  margin-left: 20px;
+}
+
+.app-header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.app-footer {
+  background-color: #eee;
+  color: #555;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9em;
+  border-top: 1px solid #ddd;
+}

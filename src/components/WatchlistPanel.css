@@ -1,0 +1,81 @@
+.watchlist-panel {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fcfcfc;
+    min-width: 280px;
+    height: fit-content;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-left: auto;
+}
+
+.watchlist-panel h4 {
+    margin-top: 0;
+    color: #885fc7;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.empty-message {
+    color: #575c61;
+    font-style: italic;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.panel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.panel-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px dashed #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.panel-image {
+    width: 50px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.panel-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.panel-title {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.panel-rating {
+    font-size: 0.8em;
+    color: #ffa500; 
+}
+
+.panel-remove-btn, .clear-list-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.clear-list-btn {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #ffc107; 
+    color: #333;
+    font-weight: bold;
+}

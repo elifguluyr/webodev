@@ -1,0 +1,78 @@
+/* src/components/ShowCard.css */
+.show-card {
+    border: 1px solid #4b2780;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #bca1dd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    min-height: 250px;
+    transition: transform 0.2s;
+}
+
+.show-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.show-image {
+    width: 130px;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.show-details {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.show-details h3 {
+    margin-top: 0;
+    font-size: 1.3em;
+    color: #000000;
+}
+
+.show-info {
+    font-size: 0.9em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.show-summary {
+    font-size: 0.85em;
+    color: #000000;
+    flex-grow: 1; 
+    line-height: 1.4;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.favorite-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+    margin-top: auto; /* Butonu en alta iter */
+}
+
+.favorite-btn.add {
+    background-color: #28a745; /* Yeşil */
+    color: white;
+}
+.favorite-btn.add:hover {
+    background-color: #1e7e34;
+}
+
+.favorite-btn.remove {
+    background-color: #dc3545; /* Kırmızı */
+    color: white;
+}
+.favorite-btn.remove:hover {
+    background-color: #c82333;
+}

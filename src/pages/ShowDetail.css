@@ -1,0 +1,142 @@
+.show-detail-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.detail-loading, .detail-error {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.back-button {
+    background: none;
+    border: 1px solid #ffffff;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+.back-button:hover {
+    background-color: #f0f0f0;
+}
+
+.detail-header {
+    display: flex;
+    gap: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.detail-image {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detail-info {
+    flex-grow: 1;
+}
+
+.detail-info h1 {
+    margin-top: 0;
+    color: #007bff;
+    font-size: 2.2em;
+}
+
+.tags {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.tag.star {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.detail-summary {
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.detail-meta {
+    font-style: italic;
+    color: #555;
+}
+
+.detail-episodes h2 {
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.season-group {
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.season-group h3 {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 10px 15px;
+    color: #885fc7;
+    border-bottom: 1px solid #eee;
+}
+
+.episode-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #f4f4f4;
+    font-size: 0.9em;
+}
+
+.episode-item:last-child {
+    border-bottom: none;
+}
+
+.ep-title {
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.ep-runtime {
+    width: 100px;
+    text-align: right;
+    color: #6c757d;
+    margin-right: 15px;
+}
+
+.source-button {
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
