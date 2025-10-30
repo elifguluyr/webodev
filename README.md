@@ -1,1 +1,1 @@
-Kampüs film kulübü için internet sitesi projemin linki: https://webodev-jade.vercel.app
+Kampüs film kulübü için internet sitesi projemin linki: https://webodev-theta.vercel.app
